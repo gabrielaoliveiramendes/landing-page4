@@ -29,3 +29,20 @@
     justify-content: center;
     height: 100%;
 }
+
+@media screen and (max-width: 1200px){
+    .combo__container{
+        padding: 0 var(--padding-xxl);
+    }
+
+    .combo__titulo, .combo__titulo-destaque{
+        font-size: var(--font-size-xl);
+        line-height: var(--line-height-xl);
+    }
+}
+
+@media screen and (max-width: 730px){
+    .combo__container{
+        padding: 0 var(--padding-m);
+    }
+}
