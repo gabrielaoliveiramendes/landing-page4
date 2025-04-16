@@ -51,3 +51,17 @@
     border-radius: 8px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 1200px){
+    .newsletter{
+        padding: var(--padding-m) var(--padding-l);
+    }
+}
+
+@media screen and (max-width: 730px){
+    .newsletter__formulario{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
